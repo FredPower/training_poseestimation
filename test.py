@@ -7,7 +7,7 @@ mp_pose = mp.solutions.pose
 pose = mp_pose.Pose(min_detection_confidence=0.5, min_tracking_confidence=0.5)
 
 
-cap = cv2.VideoCapture('video2.mp4')
+cap = cv2.VideoCapture('video3.mp4')
 while cap.isOpened():
     # read frame
     _, frame = cap.read()
